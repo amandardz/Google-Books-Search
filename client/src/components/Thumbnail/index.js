@@ -4,7 +4,7 @@ import './style.css'
 function Thumbnail({ src }) {
   return (
     <div
-    className="thumbnail"
+    className="img-thumbnail"
     role="img"
     aria-label="Book"
     style={{

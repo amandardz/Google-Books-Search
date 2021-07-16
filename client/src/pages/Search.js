@@ -15,6 +15,7 @@ function Search() {
 
   const saveBook = (book) => {
     API.saveBook(book).then((res) => {
+      alert('Book Saved')
       console.log(res);
     });
   };

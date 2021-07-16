@@ -2,7 +2,7 @@ import React from 'react';
 
 function Container(props) {
   return (
-    <div className='container border border-3 border-dark'>
+    <div className='container-fluid mt-3'>
       {props.children}
     </div>
   )
