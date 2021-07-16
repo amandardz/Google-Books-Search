@@ -1,8 +1,28 @@
 import axios from 'axios';
-require('dotenv').config();
 
 export default {
-  getBooks: function(query) {
-    return axios.get('https://www.googleapis.com/books/v1/volumes?q=' + query + '&printType=books&orderBy=relevance&key=' + process.env.REACT_APP_API_KEY)
+  getBooks: function (bookSearch) {
+    return axios(`/api/books/${bookSearch}`, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    });
   },
-}
+  saveBook: function (book) {
+    return axios('/api/books/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      data: book
+    });
+  },
+  getSavedBook: function () {
+    return axios('/api/books');
+  },
+  
+  deleteBook: function(id) {
+    return axios.delete("/api/books/" + id);
+  }
+};
