@@ -31,7 +31,13 @@ https://evening-wave-52045.herokuapp.com/
 - Dotenv
 
 ## Usage
-
+1. To begin the application, open the terminal in the code editor.
+2. In the terminal, type <i>npm start</i>. This will start the application and open it in a web browser.
+3. Below is a screenshot of what the browser will look like:
+4. Search for a book. This will populated a list of books.
+5. Each book will give you an option to view more information or save the book.
+6. When a book is selected to be saved. An alert will pop on the screen to notify that the book has been saved. 
+7. Use the navigation to see the Saved page to view list of books saved.
 
 ## License 
 MIT License
