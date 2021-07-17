@@ -8,7 +8,6 @@ https://evening-wave-52045.herokuapp.com/
 
 ## Table of Contents
 * [Installation](#installation)
-* [Build](#built)
 * [Usage](#usage)
 * [License](#license)
 
@@ -26,7 +25,7 @@ https://evening-wave-52045.herokuapp.com/
 - Javascript
 - Axios
 - Bootstrap
-- Google API
+- Google Books API
 - Mongoose
 - Dotenv
 
@@ -34,10 +33,14 @@ https://evening-wave-52045.herokuapp.com/
 1. To begin the application, open the terminal in the code editor.
 2. In the terminal, type <i>npm start</i>. This will start the application and open it in a web browser.
 3. Below is a screenshot of what the browser will look like:
+![homepage](https://user-images.githubusercontent.com/77936718/125992039-b37b8b54-1b7e-4bb1-806f-e72fa2133219.png)
 4. Search for a book. This will populated a list of books.
-5. Each book will give you an option to view more information or save the book.
-6. When a book is selected to be saved. An alert will pop on the screen to notify that the book has been saved. 
+![search](https://user-images.githubusercontent.com/77936718/125992086-ce1c4e45-9f31-41f8-9f4a-a9271276a80f.png)
+5. Each book will give you an option to view more information or save the book. 
+6. When a book is selected to be saved. An alert will pop on the screen to notify that the book has been saved.
+![alert](https://user-images.githubusercontent.com/77936718/125992161-1d738050-9041-4d0f-8db0-d41c4a155237.png)
 7. Use the navigation to see the Saved page to view list of books saved.
+![saved](https://user-images.githubusercontent.com/77936718/125992214-e837b6e7-8dc3-4326-9400-57fb5bc846f4.png)
 
 ## License 
 MIT License
