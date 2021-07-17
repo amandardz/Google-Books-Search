@@ -1,7 +1,7 @@
 # Google-Books-Search
 
 ## Description
-This application allows for users to search for books using the Google Books API.
+A MERN application that queries and displays books based on searches. Utilizing Node, Express, and MongoDB to store books saved to review or purchase later. 
 
 ## Deployed Site
 https://evening-wave-52045.herokuapp.com/
