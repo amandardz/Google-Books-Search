@@ -4,7 +4,7 @@
 A MERN application that queries and displays books based on searches. Utilizing Node, Express, and MongoDB to store books saved to review or purchase later. 
 
 ## Deployed Site
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://reactgooglebooksearch1.herokuapp.com/)
+https://reactgooglebooksearch1.herokuapp.com/
 
 ## Table of Contents
 * [Installation](#installation)
